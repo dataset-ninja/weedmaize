@@ -1,0 +1,5 @@
+The **WeedMaize** dataset focuses on weed species within a maize field. This dataset employs the PascalVOC labeling format, ensuring organized and standardized information. It encompasses three distinct weed species: Cyperus rotundus L., Echinochloa crus-galli L., and Solanum nigrum L., each representing different growth stages, offering a diverse range of data for analysis. This dataset is a valuable resource for researchers and agriculturists seeking insights into weed species and their development in maize fields. Importantly, the labels for these species are designated using the EPPO code system, enhancing clarity and consistency in data representation.
+
+Here is how EPPO codes for plants generally work: codes consist of 5 letters = 3 (genus) + 2 (species). For example, Alopecurus myosuroides -> ALOMY
+
+More information on that [here](https://www.efsa.europa.eu/sites/default/files/event//130401/130401-poster09.pdf)

@@ -9,4 +9,4 @@ If you make use of the WeedMaize data, please cite the following reference:
 }
 ```
 
-[🔗 Source](https://zenodo.org/record/5106795#.Yk_sVn9Bzmg)
+[Source](https://zenodo.org/record/5106795#.Yk_sVn9Bzmg)
