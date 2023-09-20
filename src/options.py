@@ -5,7 +5,7 @@ from src.settings import ANNOTATION_TYPES
 # ! Set up values if you want to change default values of visualizations
 ###############################################################################
 
-SAMPLE_RATE = 1  # make less if dataset is too big
+SAMPLE_RATE = 0.5  # make less if dataset is too big
 
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid", "Poster", "HorizontalGridAnimated", "VerticalGridAnimated"]
@@ -68,7 +68,7 @@ CLASSES_PREVIEW_GAP: int = None
 # args for "to_image" method
 DRAW_STYLE: str = None  # "inside_white" or "outside_black"
 HEATMAP_ROWS: int = None
-HEATMAP_COLS: int = None
+HEATMAP_COLS: int = 3
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
 HEATMAP_OUTPUT_WIDTH: int = (

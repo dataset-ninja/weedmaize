@@ -21,11 +21,8 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_4_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [
-    Industry.Agricultural(),
-    Research.Agricultural(),
-]
-CATEGORY: Category = Category.Agriculture()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Agricultural()]
+CATEGORY: Category = Category.Agriculture(extra=Category.Environmental())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -47,9 +44,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/weedmaize"
 ### * Optional after uploading ###
 ##################################
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = {
-    "train": "https://zenodo.org/record/5106795/files/train_set.zip?download=1",
-    "test": "https://zenodo.org/record/5106795/files/test_set.zip?download=1",
-    "val": "https://zenodo.org/record/5106795/files/validation_set.zip?download=1",
+    "train_set.zip (3.1 Gb)": "https://zenodo.org/record/5106795/files/train_set.zip?download=1",
+    "test_set (1.6 Gb)": "https://zenodo.org/record/5106795/files/test_set.zip?download=1",
+    "validation_set (0.9 Gb)": "https://zenodo.org/record/5106795/files/validation_set.zip?download=1",
 }
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
@@ -58,7 +55,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "Conference Proceedings": "https://www.wageningenacademic.com/doi/abs/10.3920/978-90-8686-916-9_8"
+}
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
