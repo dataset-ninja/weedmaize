@@ -1,6 +1,6 @@
 Dataset **WeedMaize** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/G/X/jI/ZcjATJzh4l65FhHoM1SjbqQVPGRvLRLwaI36ECcWXrQDb0vxs25NbpPcG7ivNC0MGKj3z3eEFYdQlfOCc1eVqXYmsydrdGVETLguvzh6C7FbqySovHuPLa5zFo4T.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -17,6 +17,6 @@ Make sure not to overlook the [python code example](https://developer.supervisel
 
 The data in original format can be downloaded here:
 
-- [train](https://zenodo.org/record/5106795/files/train_set.zip?download=1)
-- [test](https://zenodo.org/record/5106795/files/test_set.zip?download=1)
-- [val](https://zenodo.org/record/5106795/files/validation_set.zip?download=1)
+- [train_set.zip (3.1 Gb)](https://zenodo.org/record/5106795/files/train_set.zip?download=1)
+- [test_set (1.6 Gb)](https://zenodo.org/record/5106795/files/test_set.zip?download=1)
+- [validation_set (0.9 Gb)](https://zenodo.org/record/5106795/files/validation_set.zip?download=1)
