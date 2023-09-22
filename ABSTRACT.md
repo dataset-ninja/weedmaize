@@ -2,11 +2,11 @@ The authors of **WeedMaize** dataset selected fields in Badajoz, Spain (39° 1' 
 
 312 images were manually labeled, including an "Ve" class for unidentified emerging plants. Labeling utilized LabelImg software, saving data in PascalVOC format. It stored bounding box coordinates (xmin, ymin, xmax, ymax) and object class for each image.
 
-Here is how EPPO codes for plants generally work: codes consist of 5 letters = 3 (genus) + 2 (species). For example, Alopecurus myosuroides -> ALOMY
+Here is how EPPO codes for plants generally work: codes consist of 5 letters = 3 (genus) + 2 (species). For example, Alopecurus myosuroides -> *ALOMY*
 
 More information on that [here](https://www.efsa.europa.eu/sites/default/files/event//130401/130401-poster09.pdf)
 
-Plant labels include SOLNI_Vc for Solanum nigrum L. at the embryonic stage, SOLNI for more developed Solanum nigrum L. plants, CYPRO_min for multi-leaf Cyperus rotundus L. plants with center-focused bounding boxes, CYPRO for single-leaf Cyperus rotundus L. plants (>V1), ECHCG for Echinochloa crus galli L., and ZEAMX for Zea mays L. plants.
+Plant labels include *SOLNI_Vc* for Solanum nigrum L. at the embryonic stage, *SOLNI* for more developed Solanum nigrum L. plants, *CYPRO_min* for multi-leaf Cyperus rotundus L. plants with center-focused bounding boxes, *CYPRO* for single-leaf Cyperus rotundus L. plants (>V1), *ECHCG* for Echinochloa crus galli L., and *ZEAMX* for Zea mays L. plants.
 
 The dataset was split as follows: 70% of the images formed the Training Set, while the remaining 30% comprised the Validation Set. Additionally, a random sample of 30% of the training set images constituted the Test Set, used to assess training progress. Training and validation (including testing) were performed using a GeForce GTX 1080 GPU, but due to GPU limitations, image sizes had to be reduced. This reduction involved scanning each image to generate 74 smaller sub-images, with parameters set as follows: width 3886 px, height 1926 px, and an overlap of 1900 px. The corresponding XML files defining plant labels were adjusted accordingly for each sub-image.
 
