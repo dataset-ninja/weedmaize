@@ -1,6 +1,6 @@
 Dataset **WeedMaize** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/G/X/jI/ZcjATJzh4l65FhHoM1SjbqQVPGRvLRLwaI36ECcWXrQDb0vxs25NbpPcG7ivNC0MGKj3z3eEFYdQlfOCc1eVqXYmsydrdGVETLguvzh6C7FbqySovHuPLa5zFo4T.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/p/1I/IQOFyxvkuNbooLgZDdQQ89A9cZno8CuGgavToACwoiHOqhfaxa7S4f1LWjrDTfAdGXcQ3M90mpG2xpHZoeViHht1G4rLaBZMPtJq27eEhgWS5uSCSyOqziePkNlS.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
